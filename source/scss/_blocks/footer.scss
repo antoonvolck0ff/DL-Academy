@@ -1,0 +1,113 @@
+.footer {
+  gap: 30px;
+  display: flex;
+  min-width: 374px;
+  padding: 40px 20px;
+  background: #000;
+  flex-direction: column;
+  justify-content: space-around;
+
+  @media (min-width: 1400px) {
+    flex-direction: row;
+    padding: 96px 0 60px;
+  }
+
+  &__wrapper-info {
+    gap: 10px;
+    width: 224px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    font-family: "Plak Com";
+
+    @media (min-width: 1400px) {
+      font-size: 24px;
+    }
+  }
+
+  &__info {
+    font-size: 14px;
+    line-height: 135%;
+    margin-bottom: 10px;
+  }
+
+  &__btn-facebook {
+    background-image: url("../../img/facebook.svg");
+
+    &:hover {
+      background-image: url("../../img/facebook_hover.svg");
+    }
+
+    &:active {
+      background-image: url("../../img/facebook_click.svg");
+    }
+  }
+
+  &__btn-twitter {
+    background-image: url("../../img/twitter.svg");
+
+    &:hover {
+      background-image: url("../../img/twitter_hover.svg");
+    }
+
+    &:active {
+      background-image: url("../../img/twitter_click.svg");
+    }
+  }
+
+  &__btn-linkedin {
+    background-image: url("../../img/linkedin.svg");
+
+    &:hover {
+      background-image: url("../../img/linkedin_hover.svg");
+    }
+
+    &:active {
+      background-image: url("../../img/linkedin_click.svg");
+    }
+  }
+
+  &__btn-instagram {
+    background-image: url("../../img/instagram.svg");
+
+    &:hover {
+      background-image: url("../../img/instagram_hover.svg");
+    }
+
+    &:active {
+      background-image: url("../../img/instagram_click.svg");
+    }
+  }
+
+  &__btn-youtube {
+    background-image: url("../../img/youtube.svg");
+
+    &:hover {
+      background-image: url("../../img/youtube_hover.svg");
+    }
+
+    &:active {
+      background-image: url("../../img/youtube_click.svg");
+    }
+  }
+
+  &__navigation {
+    gap: 10px;
+    display: flex;
+  }
+}
+
+.social-network-btn {
+  content: "";
+  width: 33px;
+  height: 33px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
